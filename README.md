@@ -1,9 +1,9 @@
 
 # 📦 Sistema de Gerenciamento de Produtos | CRUD em Python
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-yellow?logo=python)
 ![Projeto Acadêmico](https://img.shields.io/badge/Projeto-Acadêmico-green)
-![Status](https://img.shields.io/badge/Status-Concluído-success)
+![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)
 
 ---
 
@@ -56,6 +56,9 @@ O projeto foi desenvolvido como atividade acadêmica da disciplina de **Linguage
 | Disciplina | Linguagem de Programação |
 | Projeto | Sistema de Gerenciamento de Produtos |
 
+<div align="cent>
+
+### 🐍 Desenvolvido com Python
 ---
 
 ## 👨‍💻 Desenvolvedores
@@ -64,11 +67,4 @@ O projeto foi desenvolvido como atividade acadêmica da disciplina de **Linguage
 - **Antônio José**
 
 ---
-
-<div align="center">
-
-### 🐍 Desenvolvido com Python
-
-**IF Sertão-PE | Campus Salgueiro**
-
 </div>
