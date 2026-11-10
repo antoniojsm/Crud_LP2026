@@ -1,73 +1,74 @@
-📦 Sistema de Gerenciamento de Produtos – CRUD em Python 🐍
 
-!Python !Status !Projeto !License
+# 📦 Sistema de Gerenciamento de Produtos | CRUD em Python
 
-📋 Sobre o Projeto
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Projeto Acadêmico](https://img.shields.io/badge/Projeto-Acadêmico-green)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
 
-💻 O Sistema de Gerenciamento de Produtos é uma aplicação desenvolvida em Python 🐍 com o objetivo de implementar as operações fundamentais de um sistema CRUD (Create, Read, Update e Delete).
+---
 
-📦 O projeto permite realizar o gerenciamento de produtos de maneira organizada, possibilitando:
+## 📋 Sobre o Projeto
 
-➕ Cadastrar novos produtos;
-📖 Visualizar produtos cadastrados;
-✏️ Atualizar informações dos produtos;
-🗑️ Excluir produtos do sistema.
+O **Sistema de Gerenciamento de Produtos** é uma aplicação desenvolvida em Python com o objetivo de implementar as quatro operações fundamentais de um sistema CRUD (*Create, Read, Update e Delete*).
 
-🎓 A aplicação foi desenvolvida como atividade acadêmica da disciplina Linguagem de Programação, do curso de Sistemas para Internet, no Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano – IF Sertão-PE, Campus Salgueiro.
+O sistema permite gerenciar produtos de forma simples e organizada, oferecendo funcionalidades para cadastrar, consultar, atualizar e excluir registros.
 
-🎯 Objetivos
+O projeto foi desenvolvido como atividade acadêmica da disciplina de **Linguagem de Programação**, do curso de **Sistemas para Internet**, no Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano (IF Sertão-PE), Campus Salgueiro.
 
-📌 O desenvolvimento deste projeto tem como principais objetivos:
+---
 
-🐍 Aplicar os conceitos fundamentais da linguagem Python.
-🧠 Desenvolver o raciocínio lógico e a lógica de programação.
-⚙️ Compreender e implementar operações CRUD.
-📊 Praticar a organização e manipulação de dados.
-💻 Desenvolver uma aplicação funcional para gerenciamento de produtos.
-🚀 Aprimorar os conhecimentos em desenvolvimento de software.
-⚙️ Funcionalidades do Sistema
+## 🎯 Objetivos
 
-📌 O sistema disponibiliza as quatro operações fundamentais do CRUD:
+- Aplicar os conceitos fundamentais da linguagem Python.
+- Desenvolver o raciocínio lógico e a lógica de programação.
+- Compreender e implementar as operações CRUD.
+- Praticar a manipulação e organização de dados.
+- Desenvolver uma aplicação funcional para gerenciamento de produtos.
 
-Operação	Funcionalidade	Descrição
-➕	Create	Cadastrar novos produtos.
-📖	Read	Consultar e visualizar produtos cadastrados.
-✏️	Update	Atualizar informações dos produtos.
-🗑️	Delete	Excluir produtos do sistema.
-🛠️ Tecnologias Utilizadas
+---
 
-💡 As seguintes ferramentas e tecnologias são utilizadas no desenvolvimento e gerenciamento do projeto:
+## ⚙️ Funcionalidades
 
-🐍 Python: linguagem de programação utilizada no desenvolvimento.
-🌿 Git: ferramenta de controle de versão.
-🐙 GitHub: plataforma de hospedagem e gerenciamento do código-fonte.
-🎓 Informações Acadêmicas
+| Operação | Descrição |
+|:---:|---|
+| ➕ Create | Cadastro de novos produtos. |
+| 🔍 Read | Consulta e visualização dos produtos cadastrados. |
+| ✏️ Update | Atualização das informações dos produtos. |
+| 🗑️ Delete | Exclusão de produtos do sistema. |
 
-🏫 Instituição: Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano – IF Sertão-PE.
+---
 
-📍 Campus: Salgueiro – PE.
+## 🛠️ Tecnologias Utilizadas
 
-💻 Curso: Sistemas para Internet.
+- 🐍 **Python:** linguagem utilizada no desenvolvimento da aplicação.
+- 🌿 **Git:** ferramenta de controle de versão.
+- 🐙 **GitHub:** plataforma de hospedagem do código-fonte.
 
-📚 Disciplina: Linguagem de Programação.
+---
 
-📦 Projeto: Sistema de Gerenciamento de Produtos (CRUD).
+## 🎓 Informações Acadêmicas
 
-👨‍💻 Desenvolvedores
+| Informação | Detalhes |
+|---|---|
+| Instituição | IF Sertão-PE |
+| Campus | Salgueiro – PE |
+| Curso | Sistemas para Internet |
+| Disciplina | Linguagem de Programação |
+| Projeto | Sistema de Gerenciamento de Produtos |
 
-🚀 Projeto desenvolvido por:
+---
 
-👨‍💻 Vinicyus Marins
-👨‍💻 Antônio José
+## 👨‍💻 Desenvolvedores
 
-🤝 Trabalho acadêmico desenvolvido com foco na aplicação prática dos conhecimentos de programação utilizando Python.
+- **Vinicyus Marins**
+- **Antônio José**
+
+---
 
 <div align="center">
 
-🐍 Desenvolvido com Python e dedicação! ❤️
+### 🐍 Desenvolvido com Python
 
-🎓 IF Sertão-PE | Campus Salgueiro
-
-⭐ Se gostou do projeto, deixe uma estrela no repositório!
+**IF Sertão-PE | Campus Salgueiro**
 
 </div>
