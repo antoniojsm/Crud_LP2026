@@ -38,14 +38,6 @@ O projeto foi desenvolvido como atividade acadêmica da disciplina de **Linguage
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-- 🐍 **Python:** linguagem utilizada no desenvolvimento da aplicação.
-- 🌿 **Git:** ferramenta de controle de versão.
-- 🐙 **GitHub:** plataforma de hospedagem do código-fonte.
-
----
-
 ## 🎓 Informações Acadêmicas
 
 | Informação | Detalhes |
@@ -56,7 +48,7 @@ O projeto foi desenvolvido como atividade acadêmica da disciplina de **Linguage
 | Disciplina | Linguagem de Programação |
 | Projeto | Sistema de Gerenciamento de Produtos |
 
-<div align="cent>
+<div align="cent">
 
 ### 🐍 Desenvolvido com Python
 ---
