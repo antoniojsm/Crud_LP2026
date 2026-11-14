@@ -12,6 +12,7 @@ initDatabase() #inicialização do banco de dados
 
 menu() #chamada do menu
 
+#validação do input do usuario
 while True:
     opc = int(input("\nInsira uma opção: > "))
 

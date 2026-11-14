@@ -2,6 +2,7 @@
 # 📦 Sistema de Gerenciamento de Produtos | CRUD em Python
 
 ![Python](https://img.shields.io/badge/Python-yellow?logo=python&style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-blue?logo=SQLite&style=for-the-badge)
 ![Projeto Acadêmico](https://img.shields.io/badge/Projeto-Acad%C3%AAmico-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow?style=for-the-badge)
 
