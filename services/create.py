@@ -1,1 +1,3 @@
 import sqlite3
+
+conect = sqlite3.connect("../data/database.db")
