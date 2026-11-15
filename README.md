@@ -1,12 +1,16 @@
 
-# 📦 Sistema de Gerenciamento de Produtos | CRUD em Python
+# 📦 Sistema de Gerenciamento de Produtos | CRUD
 
-![Python](https://img.shields.io/badge/Python-yellow?logo=python&style=for-the-badge)
-![SQLite](https://img.shields.io/badge/SQLite-blue?logo=SQLite&style=for-the-badge)
-![Projeto Acadêmico](https://img.shields.io/badge/Projeto-Acad%C3%AAmico-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow?style=for-the-badge)
+## 💻 Tecnologias envolvidas
 
----
+<div align="center">
+    <img src="https://img.shields.io/badge/Python-F7DF1E?logo=python&style=for-the-badge&logoColor=black" alt="Badge Python">
+    <img src="https://img.shields.io/badge/SQLite-blue?logo=SQLite&style=for-the-badge" alt="Badge SQLit">
+    <img src="https://img.shields.io/badge/Git-orange?style=for-the-badge&logo=git&logoColor=black" alt="Badge Git"><br>
+    <img src="https://img.shields.io/badge/Projeto-Acad%C3%AAmico-green?style=for-the-badge" alt="Tipo Projeto">
+    <img src="https://img.shields.io/badge/Status-Em_Andamento-yellow?style=for-the-badge" alt="Status projeto"> 
+</div>
+
 
 ## 📋 Sobre o Projeto
 
@@ -50,9 +54,6 @@ O projeto foi desenvolvido como atividade acadêmica da disciplina de **Linguage
 | Projeto | Sistema de Gerenciamento de Produtos |
 
 <div align="cent">
-
-### 🐍 Desenvolvido com Python
----
 
 ## 👨‍💻 Desenvolvedores
 
