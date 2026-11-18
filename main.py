@@ -43,6 +43,7 @@ while True:
 
         case 2: # Atualizar produto
             pass
+
         case 3: # Exibir produto
             produtos = read() #Chama a funçao read() para exibir os produtos cadastrados na pasta serviç
 
@@ -52,7 +53,14 @@ while True:
             else:
                 #caso a lista de produtos não esteja vazia, exibe os produtos cadastrados
                 for produto in produtos:
-                    print(f"ID: {produto[0]} | Nome: {produto[1]} | Fabricante: {produto[2]} | Estoque: {produto[3]} | Valor: R${produto[4]:.2f}")  
+                    print(f"ID: {produto[0]} | Nome: {produto[1]} | Fabricante: {produto[2]} | Estoque: {produto[3]} | Valor: R${produto[4]:.2f}")
+
+            while True:
+                continuar = input("\nDigite [s] para continuar > ")
+
+                if continuar.lower() == "s":
+                    break
+
         case 4: # Excluir produto
             produtos = read() #Chama a função read() para exibir os produtos cadastrados na pasta serviços
             print("Produtos cadastrados:")
@@ -60,6 +68,7 @@ while True:
                 print(f"ID: {produto[0]} | Nome: {produto[1]} | Fabricante: {produto[2]} | Estoque: {produto[3]} | Valor: R${produto[4]:.2f}")
             prod_id = int(input("Insira o ID do produto a ser excluido: "))
             delete(prod_id) #Chama a função delete() para excluir o produto com o ID informado
+            
         case 5:
             print(">> Programa encerrado!")
             break
