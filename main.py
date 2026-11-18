@@ -1,6 +1,6 @@
 from db.database import initDatabase
 from services.create import cadastrar
-from services.read import read
+from services.read import displayProd
 from services.delete import delete 
 
 # Exibição de menu no terminal
@@ -18,7 +18,7 @@ while True:
 
     #validação do input do usuario
     while True:
-        opc = int(input("\nInsira uma opção: "))
+        opc = int(input("\nInsira uma opção > "))
 
         if 1 <= opc <= 5:
             break
@@ -42,18 +42,12 @@ while True:
             cadastrar(produto)       
 
         case 2: # Atualizar produto
-            pass
+            displayProd() # mostra lista de itens cadastrados
+
+            update_id = int(input("\nQual produto deseja alterar > "))
 
         case 3: # Exibir produto
-            produtos = read() #Chama a funçao read() para exibir os produtos cadastrados na pasta serviç
-
-            if not produtos:
-                #verifica se a lista de produtos está vazia, caso esteja exibe a mensagem
-                print("Nenhum produto cadastrado!")
-            else:
-                #caso a lista de produtos não esteja vazia, exibe os produtos cadastrados
-                for produto in produtos:
-                    print(f"ID: {produto[0]} | Nome: {produto[1]} | Fabricante: {produto[2]} | Estoque: {produto[3]} | Valor: R${produto[4]:.2f}")
+            displayProd() # mostra lista de itens cadastrados
 
             while True:
                 continuar = input("\nDigite [s] para continuar > ")
@@ -62,11 +56,9 @@ while True:
                     break
 
         case 4: # Excluir produto
-            produtos = read() #Chama a função read() para exibir os produtos cadastrados na pasta serviços
-            print("Produtos cadastrados:")
-            for produto in produtos:
-                print(f"ID: {produto[0]} | Nome: {produto[1]} | Fabricante: {produto[2]} | Estoque: {produto[3]} | Valor: R${produto[4]:.2f}")
-            prod_id = int(input("Insira o ID do produto a ser excluido: "))
+            displayProd() # mostra lista de itens cadastrados
+
+            prod_id = int(input("\nInsira o ID do produto a ser excluido > "))
             delete(prod_id) #Chama a função delete() para excluir o produto com o ID informado
             
         case 5:
