@@ -2,6 +2,7 @@ from db.database import initDatabase
 from services.create import cadastrar
 from services.read import displayProd
 from services.delete import delete 
+from services.update import update
 
 # Exibição de menu no terminal
 def menu():
@@ -45,6 +46,24 @@ while True:
             displayProd() # mostra lista de itens cadastrados
 
             update_id = int(input("\nQual produto deseja alterar > "))
+
+            #dicionario que recebe os dados
+            prod_info = {"nome": "", "fabricante": "", "estoque": "", "valor": ""}
+
+            print("\nAlterar Registro\n>> Caso não deseje alterar algum valor\n já registrado deixe o campo [VAZIO]\n")
+            #solicita infomações que desejam ser alterada ao dicionario
+            prod_info["nome"] = input("Nome > ")
+            prod_info["fabricante"] = input("Fabricante > ")
+
+            while True:
+                prod_info["estoque"] = input("Estoque > ")
+                try:
+                    prod_info["estoque"] = int(prod_info["estoque"])
+                    break
+                except ValueError:
+                    print("[ERRO] Insira um número inteiro!")
+
+            #Se estiver vazio o valor se mantém o valor antigo
 
         case 3: # Exibir produto
             displayProd() # mostra lista de itens cadastrados
