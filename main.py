@@ -50,6 +50,7 @@ while True:
             #dicionario que recebe os dados
             prod_info = {"nome": "", "fabricante": "", "estoque": "", "valor": ""}
 
+            #Se estiver vazio o valor se mantém o valor antigo
             print("\nAlterar Registro\n>> Caso não deseje alterar algum valor\n já registrado deixe o campo [VAZIO]\n")
             #solicita infomações que desejam ser alterada ao dicionario
             prod_info["nome"] = input("Nome > ")
@@ -58,12 +59,25 @@ while True:
             while True:
                 prod_info["estoque"] = input("Estoque > ")
                 try:
+                    if prod_info["estoque"] == "":
+                        break
                     prod_info["estoque"] = int(prod_info["estoque"])
                     break
                 except ValueError:
                     print("[ERRO] Insira um número inteiro!")
 
-            #Se estiver vazio o valor se mantém o valor antigo
+            while True:
+                prod_info["valor"] = input("Valor > ")
+                if prod_info["valor"] == "":
+                    break
+                try:
+                    prod_info["valor"] = float(prod_info["valor"].replace(",", "."))
+                    break
+                except ValueError:
+                    print("[ERRO] Insira um número inteiro!")
+
+            update(update_id, prod_info)
+            print("\n>> Produto atualizado com sucesso!")
 
         case 3: # Exibir produto
             displayProd() # mostra lista de itens cadastrados
